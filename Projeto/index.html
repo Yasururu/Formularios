@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/stylesheet.css" />
+</head>
+
+<body>
+    <!--BG1 Header(Changed)-->
+    <div class="container">
+        <div class="header">
+            <h3>Encontre seu lado obscuro</h3>
+        </div>
+        <div class="form-container">
+
+            <!--FormularioHeader(Changed)-->
+            <div class="form-header">
+                <p>Formulário de assassino</p>
+            </div>
+
+            <!--FormularioTitle (Changed)-->
+            <div class="form-body">
+                <h1 class="form-title">Liberte sua violência interior</h1>
+                <p class="form-title"> Respire fundo e responda com sinceridade.</p>
+            <!--FormularioBody-->
+                <form>
+                    <div class="box-input">
+                        <label for="title">Qual seria seu nome de serial killer? <span class="required-field">*</span></label>
+                        <input type="text" name="title" id="title" class="block"
+                            placeholder="" minlength="1" maxlength="30" required />
+                    </div>
+                    <div class="box-input">
+                        <label for="price">Já matou alguém? <span class="required-field">*</span></label>
+                        <input type="number" name="price" id="price" class="block" placeholder="Se nunca matou alguém digite 0"
+                            required />
+                    </div>
+                    <div class="optional-box">
+                        <p>Quais seriam suas armas?</p>
+                        <ul class="optional-list">
+                            <li>
+                                <input type="checkbox" id="faca" name="optional[]" value="faca" />
+                                <label for="faca">Faca</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="motoserra" name="optional[]" value="motoserra" />
+                                <label for="motoserra">Motoserra</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="arma de fogo" name="optional[]" value="arma de fogo" />
+                                <label for="arma de fogo">Arma de fogo</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="mãos nuas" name="optional[]" value="mãos nuas" />
+                                <label for="mãos nuas">Minhas próprias mãos</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="optional-box">
+                        <ul class="optional-list">
+                            <li>
+                                <input type="checkbox" id="arco e flecha" name="optional[]" value="arco e flecha" />
+                                <label for="arco e flecha">Arco e flecha</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="pedra" name="optional[]" value="pedra" />
+                                <label for="pedra">Pedra</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="nenhuma" name="optional[]" value="nenhuma" />
+                                <label for="nenhuma">Nenhuma, apenas minha mente</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="nunchaku" name="optional[]" value="nunchaku" />
+                                <label for="nunchaku">Nunchaku</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box-input">
+                        <label for="brand">Você tem algum tipo de vítima favorito? <span class="required-field">*</span></label>
+                        <input type="text" name="brand" id="brand" class="block" placeholder="Qual o tipinho?"
+                            required />
+                    </div>
+                    <div class="box-input">
+                        <label for="model">Você se inspira em algum serial killer? <span class="required-field">*</span></label>
+                        <input type="text" name="model" id="model" class="block"
+                            placeholder="Pode ser ficticio ou real" required />
+                    </div>
+                    <div class="box-input">
+                        <p>Já tem data para seu primeiro assassinato? <span class="required-field">*</span></p>
+                        <input type="radio" id="sim" name="planos" />
+                        <label for="sim">Sim</label>
+                        <input type="radio" id="nao" name="planos" />
+                        <label for="nao">Não</label>
+                    </div>
+                    <div class="box-input">
+                        <label for="purchase_date">Se sim, quando vai ser?</label>
+                        <input type="date" name="purchase_date" id="purchase_date" class="block"/>
+                    </div>
+                    <div class="optional-box">
+                        <p>O que você não aceita matar?</p>
+                        <ul class="optional-list">
+                            <li>
+                                <input type="checkbox" id="crianças" name="optional[]" value="crianças" />
+                                <label for="crianças">Crianças</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="idosos" name="optional[]" value="idosos" />
+                                <label for="idosos">Idosos</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="animais" name="optional[]" value="animais" />
+                                <label for="animais">Animais</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="adultos" name="optional[]" value="adultos" />
+                                <label for="adultos">Adultos</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="optional-box">
+                        <ul class="optional-list">
+                            <li>
+                                <input type="checkbox" id="deficientes" name="optional[]" value="deficientes" />
+                                <label for="deficientes">Deficientes</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="outroserial" name="optional[]" value="outroserial" />
+                                <label for="outroserial">Outro Serial Killer</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="amigo" name="optional[]" value="amigo" />
+                                <label for="amigo">Um amigo</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="familia" name="optional[]" value="familia" />
+                                <label for="familia">Minha familia</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box-input">
+                        <p>Fotos do seu disfarce: <span class="required-field">*</span></p>
+                        <input type="file" multiple accept="image/png, image/jpg" id="images" name="images" required />
+                    </div>
+                    <input type="submit" value="Enviar" class="btn-submit" />
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
